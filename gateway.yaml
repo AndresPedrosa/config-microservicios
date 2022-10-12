@@ -12,7 +12,7 @@ spring:
         uri: lb://user/
         predicates:
           - Path=/user/**
-      - id: lucaticket
+      - id: sapo
         uri: lb://lucaticket/
         predicates:
           - Path=/lucaticket/**
