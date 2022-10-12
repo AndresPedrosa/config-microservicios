@@ -16,3 +16,7 @@ spring:
         uri: lb://login/
         predicates:
           - Path=/login/**
+      - id: venta
+        uri: lb://venta/
+        predicates:
+          - Path=/venta/**
