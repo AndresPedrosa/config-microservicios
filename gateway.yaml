@@ -20,3 +20,7 @@ spring:
         uri: lb://venta/
         predicates:
           - Path=/venta/**
+      - id: pasarela
+        uri: lb://pasarela/
+        predicates:
+          - Path=/pasarela/**
